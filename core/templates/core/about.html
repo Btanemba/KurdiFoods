@@ -1,0 +1,32 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% block content %}
+    <!-- product section start -->
+      <div class="product_section layout_padding">
+         <div class="container">
+            <h1 class="feature_taital">ABOUT KORDI-FOODS</h1>
+            <p class="feature_text">Quality & Convenience</p>
+            <div class="product_section_2">
+               <div class="row">
+                  <div class="col-sm-5">
+                     <div class="feature_box">
+                        <h1 class="readable_text"></h1>
+                        <div><img src="{% static 'images/KordiLogo.jpg' %}" class="image_7"></div>
+                         <p>KordiFoods, a  food brand that delivers a perfect blend of quality and convenience. From crunchy tasty kuli-kuli to neatly grinded crayfish powder, our products are meticulously crafted to satisfy your taste buds while fitting seamlessly into your busy lifestyle. Experience the essence of freshness and nutrition with KordiFoods, your go-to choice for quality and convenience.</p>
+                     </div>
+
+                  </div>
+                  <div class="col-sm-7">
+                     <div class="feature_box_2">
+                        <h1 class="readable_text">Founder</h1>
+                        <div><img src="{% static 'images/NewCEO.png' %}" class="image_8"></div>
+
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+{% endblock %}

@@ -1,0 +1,86 @@
+ {% extends 'core/base.html' %}
+{%  load static %}
+
+ {% block content %}
+    <!--category section start -->
+
+
+      <div class="container">
+
+        <h1 style="text-align: center; color: #c771c7 " class="font_size_90">PRODUCTS</h1>
+          <hr>
+
+         <div class="category_section_2">
+            <div class="row">
+               <div class="col-lg-4 col-sm-12">
+                  <div class="beds_section active">
+                     <h1 class="bed_text">Up to 10% off | Spices</h1>
+                     <div><img src="{% static 'images/KordiCrafish.jpg'%}" class="image_2"></div>
+                      <p>Price:N1,500 </p>
+                      <p>Description: Without Pepper Added</p>
+                     <div class="seemore_bt"><a href="#">Order</a></div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-sm-12">
+                  <div class="beds_section">
+                     <h1 class="bed_text">Packaged Dry Crayfish</h1>
+                     <div><img src="{% static 'images/KordiPepper.jpg' %}" class="image_2"></div>
+                      <p>Price:N1,200 </p>
+                      <p>Description: With Pepper Added</p>
+                     <div class="seemore_bt"><a href="#">Order</a></div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-sm-12">
+                  <div class="beds_section">
+                     <h1 class="bed_text">Groundnut Cake</h1>
+                     <div><img src="{% static 'images/KordiSnacks.jpg' %}" class="image_2"></div>
+                      <p>Price:N700 </p>
+                      <p>Description: Spicy and Well Prepared</p>
+                     <div class="seemore_bt"><a href="#">Order</a></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- category section end -->
+     <!-- product section start -->
+
+     <!-- product section end -->
+     <!-- footer section start -->
+      <div class="footer_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-4 col-sm-12">
+                  <h4 class="information_text">Address</h4>
+                  <p class="dummy_text">APO, Abuja </p>
+               </div>
+               <div class="col-lg-4 col-sm-6">
+                  <div class="information_main">
+                     <h4 class="information_text">Useful Links</h4>
+                      <p class="call_text"><a href="{{ 'about' }}">ABOUT</a></p>
+                      <p class="call_text"><a href="#">PRODUCTS</a></p>
+                      <p class="call_text"><a href="{{ 'contact' }}">CONTACT US</a></p>
+                      <p class="call_text"><a href="{{ 'login' }}">LOGIN</a></p>
+
+                  </div>
+               </div>
+               <div class="col-lg-4 col-sm-6">
+                  <div class="information_main">
+                     <h4 class="information_text">Contact Us</h4>
+                     <p class="call_text"><a href="#">+01 1234567890</a></p>
+                     <p class="call_text"><a href="#">demo@gmail.com</a></p>
+                     <div class="social_icon">
+                        <ul>
+                           <li><a href="#"><img src="{% static 'images/fb-icon.png' %}"></a></li>
+                           <li><a href="#"><img src="{% static 'images/twitter-icon.png' %}"></a></li>
+                           <li><a href="#"><img src="{% static 'images/linkedin-icon.png' %}"></a></li>
+                           <li><a href="#"><img src="{% static 'images/instagram-icon.png' %}"></a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </div>
+ {% endblock %}
